@@ -14,6 +14,6 @@
       {{ character.name }} - {{ character.power }}
     </div>
 
-    <button (click)="onDeleteCharacter(i)" class="btn btn-danger"><i class="fa fa-trash"></i></button>
+    <button (click)="onDeleteCharacter(character.id!)" class="btn btn-danger"><i class="fa fa-trash"></i></button>
   </li>
 </ul>
